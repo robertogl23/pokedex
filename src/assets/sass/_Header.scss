@@ -1,0 +1,50 @@
+.header{
+    height: 64px;
+    background: rgb(36, 36, 36);
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    nav{
+        margin-right: 35px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+    }
+    ul{
+        display: inline-flex;
+    }
+    li{
+        margin-right: 8px;
+    }
+    a{
+        color: #fff;
+    }
+    span{
+        font-size: 26px;
+        font-weight: 800;
+    }
+    .title{
+        margin-left: 35px;
+        display: flex;
+        align-items: center;
+        height: 100%;
+    
+        color: white;
+
+    }
+    .txt-color-1{
+        color: rgb(33, 130, 187);
+
+    }
+    .txt-color-2{
+        color: rgb(61, 33, 187);
+
+
+    }
+    .txt-color-3{
+        color: rgb(187, 33, 154);
+
+    }
+      
+}
